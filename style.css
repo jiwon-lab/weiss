@@ -1,0 +1,92 @@
+a{
+  text-decoration: none;
+  color: black;
+}
+.active a{
+  color:gray;
+}
+video{
+  margin-top:80px;
+  margin-left:40px;
+}
+div{
+  border: 1px solid none;
+  padding:10px;
+  font-family: sans-serif;
+  text-align: center;
+}
+h6{
+  color:black;
+  font-family: sans-serif;
+  font-size:20px;
+  text-align: center;
+  margin-top: 50px;
+}
+h3{
+  color:black;
+  font-family: serif;
+  font-size:18px;
+  text-align: center;
+}
+p{
+  font-family: serif;
+  font-size: 15px;
+  text-align: center;
+}
+.active{
+  color: gray;
+}
+.sans-serif{
+  font-family: Futura, sans-serif;
+}
+.serif{
+  font-family: Adobe Caslon, serif;
+}
+.projectimg{
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+  width:50%
+}
+.projectname{
+  display:inline;
+  text-align: center;
+  font-family: serif;
+}
+.fugeimg{
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top:30px;
+  width:50%
+}
+.grid{
+  border-bottom:1px solid gray;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  display:grid;
+}
+.grid2{
+  border:1px solid white;
+  display:grid;
+  margin:20px;
+  padding:20px;
+}
+@media(max-width:800px){
+  video{
+    margin-top:150px;
+  }
+  h6{
+    font-size:15px;
+    text-align: center;
+    margin-top: 100px;
+  }
+}
+
+@media(min-width:800px){
+  .lebenslauf{
+    width: 40%
+  }
+  .fugeimg{
+    margin-top:40px;
+    width:50%
+}
